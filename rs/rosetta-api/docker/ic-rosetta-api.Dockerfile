@@ -13,7 +13,7 @@ RUN \
   cd rs/rosetta-api && \
   cargo build --release --bin ic-rosetta-api
 
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 
 ARG RELEASE
 
