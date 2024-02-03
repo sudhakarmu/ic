@@ -1,5 +1,5 @@
 # 20.04
-FROM ubuntu:focal-20211006
+FROM ubuntu:focal-20240123
 
 RUN apt-get -y update && \
     apt-get -y upgrade && \
