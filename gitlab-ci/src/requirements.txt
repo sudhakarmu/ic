@@ -14,3 +14,4 @@ pytest-shutil >= 1.7.0
 PyYAML >= 5.4.1
 toml >= 0.10.2
 honeycomb-beeline
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
