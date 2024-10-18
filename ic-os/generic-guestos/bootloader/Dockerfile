@@ -1,5 +1,5 @@
 # 20.04
-FROM ubuntu:focal-20211006
+FROM ubuntu:focal-20240918
 
 RUN apt-get -y update && apt-get -y upgrade && apt-get -y --no-install-recommends install \
     grub-efi-amd64-bin faketime
